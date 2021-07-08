@@ -299,11 +299,11 @@ h6 {
   gap: 100px;
 }
 
-#skills {
+.skills {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   background-color: var(--previewShadow);
   color: var(--secondaryText);
   font-family: "Ubuntu", sans-serif;
