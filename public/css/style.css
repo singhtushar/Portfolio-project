@@ -308,7 +308,7 @@ h6 {
   color: var(--secondaryText);
   font-family: "Ubuntu", sans-serif;
   margin-bottom: 20px;
-  height: 150px;
+  height: auto;
   font-weight: bold;
   border: 2px solid;
 }
@@ -484,6 +484,21 @@ a {
 #foot-content {
   color: tomato;
   display: flex;
+  width: fit-content;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 380px) {
+  #foot-content {
+    color: tomato;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.skill-name {
+  margin: 20px;
 }
