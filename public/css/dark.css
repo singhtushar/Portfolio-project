@@ -1,0 +1,33 @@
+:root{
+	--mainColor:#0c0e11;
+	--secondaryColor:#181c20;
+
+	--borderColor:#bb952d;
+
+	--mainText:rgb(171, 230, 10);
+	--secondaryText:#d1b123;
+
+	--themeDotBorder:#FFF;
+
+	--previewBg:rgba(11, 14, 17, 0.8);
+	--previewShadow:#111921;
+
+
+	--buttonColor:#4fca31;
+}
+
+#skills{
+	background-color: rgb(34, 30, 30);
+}
+
+#btn{
+	background-color: rgb(152, 230, 28);
+	color: rgb(5, 5, 5);
+}
+
+#btn:hover {
+  /* box-shadow: 0 12px 16px 0 rgba(228, 80, 11, 0.904),0 17px 50px 0 rgba(204, 204, 204, 0.671); */
+  background-color: tomato;
+  color: #FFF;
+  transition-delay: 0.6;
+}
