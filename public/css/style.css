@@ -126,24 +126,39 @@ h6 {
   background-color: var(--mainColor);
 }
 
-#navigation a {
+.each-navigation a {
   color: var(--mainText);
 }
 
-#navigation {
+.each-navigation {
   margin: 0;
   padding: 10px;
 }
 
-.nav-wrapper ul#navigation:hover {
+.nav-wrapper ul.each-navigation:hover {
   background-color: #fc6058;
   border-radius: 3px;
 }
 
-#navigation li {
+.each-navigation li {
   display: flex;
   margin-right: 5px;
   margin-left: 5px;
+}
+
+#navigation {
+  display: flex;
+}
+
+@media screen and (max-width: 475px) {
+  .nav-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  #navigation {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .dots-wrapper {
@@ -482,7 +497,7 @@ a {
 }
 
 #foot-content {
-  color: tomato;
+  color: red;
   display: flex;
   width: fit-content;
   justify-content: center;
@@ -491,7 +506,7 @@ a {
 
 @media screen and (max-width: 380px) {
   #foot-content {
-    color: tomato;
+    color: red;
     display: flex;
     font-size: 15px;
     justify-content: center;
